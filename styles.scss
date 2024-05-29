@@ -1,0 +1,54 @@
+$main-text-color: #333;
+$header-color: #a78e2a;
+$border-color: #ccc;
+$text-size: 26px;
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: $main-text-color;
+    font-size: $text-size;
+}
+header {
+    background-color: $header-color;
+    padding: 10px 0;
+    text-align: center;
+    h1 {
+        color: white;
+        margin: 0;
+    }
+}
+
+main {
+    padding: 20px;
+   
+    .book {
+        border: 8px solid $border-color;
+        padding: 10px;
+        margin: 100px;
+        margin-bottom: 20px;
+      
+        img {
+            width: 400px;
+            height: auto;
+            display: block;
+            margin: 0 auto 10px;
+        }
+       
+    }
+}
+
+footer {
+    background-color: $header-color;
+    color: green;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: space-evenly;
+   
+    a {
+        color: beige;
+    }
+}
